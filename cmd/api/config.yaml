@@ -1,0 +1,17 @@
+
+
+app:
+  name: golang-ddd
+  port: ":4000"
+
+db:
+  host: localhost
+  port: 5432
+  name: golangddd
+  user: yurina
+  password: hirate
+  connection_pool:
+    max_idle_connection : 10
+    max_open_connection : 30
+    max_lifetime_connection : 60
+    max_idletime_connection : 60
